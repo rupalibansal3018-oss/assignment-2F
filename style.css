@@ -1,0 +1,66 @@
+
+/* Body Styling */
+body {
+    background-color: #f2f5ff;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Heading */
+h1 {
+    color: darkblue;
+}
+
+h2 {
+    color: purple;
+}
+
+/* Relative Position */
+.relative {
+    background-color: lightblue;
+    padding: 20px;
+    width: 200px;
+    margin: auto;
+
+    position: relative;
+    left: 30px;
+}
+
+/* Absolute Position */
+.container {
+    background-color: white;
+    width: 300px;
+    height: 150px;
+    border: 2px solid blue;
+    margin: auto;
+
+    position: relative;
+}
+
+.absolute {
+    background-color: lightgreen;
+    padding: 15px;
+
+    position: absolute;
+    top: 40px;
+    right: 20px;
+}
+
+/* Extra Space */
+.space {
+    height: 500px;
+    padding: 20px;
+}
+
+/* Fixed Button */
+.fixed {
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 20px;
+
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
